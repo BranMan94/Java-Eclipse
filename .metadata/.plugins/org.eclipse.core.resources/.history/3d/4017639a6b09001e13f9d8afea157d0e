@@ -1,0 +1,31 @@
+package TiposDeDatosYVariables;
+
+public class Ejercicios {
+
+	public static void main(String[] args) {
+	
+	//System.out.println("Hola mundo");
+	//Tipos de datos
+		
+		//Cine Java
+		//byte: sirve para representar un valor numerico de 8 bits
+		byte salas = 10;
+		System.out.println(salas);
+		
+		
+		//short: sirve para representar un valor numerico de 16 bits
+		short asientos = 1120;
+		System.out.println(asientos);
+		
+		
+		//int: sirve para representar un valor numerico de 32 bits
+		int dulces = 3476;
+		System.out.println(dulces);
+		
+		
+		
+		
+		
+	}
+
+}

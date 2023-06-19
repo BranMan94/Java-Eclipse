@@ -1,0 +1,6 @@
+INDEX VERSION 1.132+C:\Users\brand\CH-27\.metadata\.plugins\org.eclipse.jdt.core
+3413725848.index
+1570852477.index
+1949459411.index
+2258741958.index
+1865797976.index

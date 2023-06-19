@@ -1,0 +1,38 @@
+package condicionalesYCiclos;
+
+import java.util.Scanner;
+
+public class ejercicioHoteleriaByteSquad {
+
+	public static void main(String[] args) {
+
+		//Menores de Edad
+		
+		Scanner Edad = new Scanner(System.in);
+		
+		System.out.println("Por favor ingresa la edad");
+		
+		byte 
+		
+		Edad.close();
+		
+		
+		
+		
+		
+		
+		//Todo Incluido
+		Scanner
+		
+		boolean todoIncluido = scan.nextBoolean();
+		
+		//Buffet
+		
+		//Valet Parking
+		
+		//Pet Friendly
+		
+		
+	}
+
+}

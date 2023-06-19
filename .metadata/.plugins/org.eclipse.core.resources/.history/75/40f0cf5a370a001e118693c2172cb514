@@ -1,0 +1,41 @@
+package condicionalesYCiclos;
+
+public class condicionalesYCiclos {
+
+	public static void main(String[] args) {
+		
+			/*
+			 * Condicionales
+			 * 
+			 * 
+			 * if
+			 * else
+			 * else if
+			 * switch
+			 */
+		
+		
+			System.out.println("Programa para calcular la hora");
+			
+			
+			//Equivalente al prompt en JS se llama Scanner
+			
+			//var hora = prompt("mensaje");
+			
+			//Nenito = new Gatito (parametros)
+			
+			//Java, creo un nuevo objeto Scanner, llamalo hora y este sera una nuevo objeto de la clase Scanner que tiene los argumentos para guardar la informacion que le pase como entrada
+			Scanner valorIngresado = new Scanner(System.in); //declaro objeto y le paso info
+			
+			System.out.println("Por favor, ingresa una hora en un formato de 24 horas");
+			
+			int hora = valorIngresado.nextInt(); //usar la informacion del objeto
+			
+			if(hora >= 0 && hora <= 24) { //true
+				System.out.println("Buenos dias solecitos, la tierra les dice hola");
+				
+			}
+
+	}
+
+}
