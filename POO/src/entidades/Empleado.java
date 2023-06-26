@@ -14,7 +14,7 @@ public class Empleado extends Persona {
 	public Empleado(String nombre, int edad, String correo, String telefono, String numEmpleado, String nss,
 			String puesto) {
 		super(nombre, edad, correo, telefono); // nos indica que heredamos
-		this.numEmpleado = numEmpleado;
+		this.numEmpleado = numEmpleado; // solo defino los .this que me hacen falta
 		this.nss = nss;
 		this.puesto = puesto;
 	}
@@ -28,7 +28,17 @@ public class Empleado extends Persona {
 	System.out.println("Numero Empleado: " + numEmpleado);
 	System.out.println("Numero Seguro Social: " + nss);
 	System.out.println("Puesto: " + puesto);
-	}// cierre mostrarInformacin
+	}// cierre mostrar Informacion
+
+	
+	
+	//4. toString
+		//toString es un metodo en Java que proviene de la clase Objeto (el antecesor o precursor de todos los objetos que existen en Java). Este metodo ya se escribio, ya esta definidio y nos permite mostrar la informacion del objeto en una cadena de texto.
+	
+	@Override
+	public String toString() {
+		return "Empleado [numEmpleado=" + numEmpleado + ", nss=" + nss + ", puesto=" + puesto + ", nombre=" + nombre + ", edad=" + edad + ", correo=" + correo + ", telefono=" + telefono + "]";
+	}
 	
 
 }
